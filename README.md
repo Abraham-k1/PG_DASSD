@@ -1,4 +1,4 @@
-# PG_DASSD COURSEWORK
+# PG-DASSD
 
 ## Course Modules and Hours
 
