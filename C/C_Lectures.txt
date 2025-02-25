@@ -1,0 +1,149 @@
+111 25/2/25
+===========
+===========
+
+Computer definition
+
+CPU Definition
+
+Memory Types - RAM/ROM
+
+CPU Instructions
+
+Types of programs
+	- System Programs
+	- Application Programs
+
+Programming Langugaes
+=> Low level
+	- Assembly / OP codes
+	- Machine language/ Machine code/ Binary
+
+=> High Level (Provide abstraction from machine level languages)
+	- Compiled 
+		ex: C, C++, Java...
+	- Interpreted 
+		ex: Python, Javascript...
+
+Compilation Process
+	
+	Test.c --> C Compiler --> Executable file 
+
+C Compilers examples: 
+	- GCC (GNU Compiler Collection)
+	- Clang
+	- MSVC / Microsoft Visual C++ 
+	- ICC / Intel C Compiler
+
+Interpretation Process
+
+	Source code --> Interpreter --> O/P within the Interpreter software itself
+
+Why Linux
+=========
+
+	- Open Source
+	- Light Weight
+	- More Secure
+	- Easy to Cross Compile
+	- Used Everywhere ex: IOT, Android, Medical Instruments, Home Applicances etc..
+
+cdac@cdac-vm:-$
+
+In the above linux terminal text 
+
+	cdac 		--> Username
+	cdac-vm		--> Host Machine Name
+	$			--> Denotes Normal User (Not root)
+
+Windows - Folders
+Linux 	- Directories
+
+Blue  - directories
+White - files
+Green - executables
+
+Linux Commands
+==============
+
+ls - list // Lists the contents in the current Directory
+
+pwd - Print Working Direcory // Displays the absolute path of the present working directory 
+*Absolute means path starting from the root directory
+
+mkdir - Make Directory
+
+cd - change directory
+
+cd .. 	// changes to the previous directory
+
+cd / 	// changes directory to root 
+
+rmdir // remove directory
+* Doesn't work on non-empty directories
+
+rmdir -r // to remove the directory along with it's contents
+* -rf forces deletion without confirmation
+
+man [linux_command] // displays the man page 
+
+vi // opens vi editor
+
+vi test.c // creates test.c file and also opens the vi editor 
+
+	=> to work with vi editor
+
+	1) Press i to enter into 'insert mode'/ edit mode
+	2) Write the contents
+	3) Press esc to enter into the 'command mode'
+	4) type in wq and press enter to save the file and exit the vi editor
+
+cat - concatenate // used to display the contents of a file - entire
+
+similar to cat - more, less, head, tail
+
+ctrl + l // clears the terminal screen
+
+ls -l // list in long listing format
+
+ls -al // displays hidden files too
+
+Linux permissions
+=================
+
+-rwxrwxrwx  1 alice developers  1234 Feb 25 12:34 script.sh
+
+The first character describes if it's a
+
+-	Regular file
+d	Directory
+l	Symbolic link
+b	Block device file (e.g., storage devices)
+c	Character device file (e.g., terminals, keyboards)
+s	Socket (used for interprocess communication)
+p	Named pipe (FIFO – First In, First Out queue)
+
+
+User (Owner) 	// The person who owns the file.
+Group 			// A set of users who share the same permissions on the file.
+Others (World) 	// Everyone else who is not the owner or in the group.
+
+rwx
+
+Read, Write, Execute
+
+chmod - change mode // used to change the permissions for the file
+
+
+
+
+
+
+
+
+
+
+
+
+
+
